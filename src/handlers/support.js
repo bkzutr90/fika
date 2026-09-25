@@ -7,7 +7,7 @@ const { esc, rp, STATUS } = require('../utils');
 
 const INFO = {
   faq: `📜 <b>FAQ</b>\n\n<b>Berapa lama proses topup?</b>\nUmumnya 1-10 menit, tergantung game.\n\n<b>Saldo terpotong tapi gagal?</b>\nJika gagal, saldo otomatis dikembalikan.\n\n<b>Salah ID?</b>\nKesalahan ID/Zone ID menjadi tanggung jawab pengguna.\n\n<b>Kapan deposit masuk?</b>\nSetelah bukti dikirim & diverifikasi admin.`,
-  howto: `❓ <b>CARA TOPUP</b>\n\n1️⃣ Deposit saldo lewat menu 💳 Deposit\n2️⃣ Buka 🎮 Topup Game, pilih game\n3️⃣ Masukkan ID (& Zone ID bila ada)\n4️⃣ Pilih nominal\n5️⃣ Cek konfirmasi, tekan ✅ BAYAR → ✅ LANJUTKAN\n6️⃣ Tunggu status berubah menjadi ✅ Sukses`,
+  howto: `❓ <b>CARA TOPUP</b>\n\n1️⃣ Deposit saldo lewat menu 💳 Deposit\n2️⃣ Buka 🎮 Topup Game, pilih game\n3️⃣ Pilih nominal/produk\n4️⃣ Masukkan ID (& Zone ID bila ada)\n5️⃣ Cek konfirmasi, tekan ✅ BAYAR → ✅ LANJUTKAN\n6️⃣ Tunggu status berubah menjadi ✅ Sukses`,
   depissue: `💰 <b>MASALAH DEPOSIT</b>\n\n• Pastikan transfer sesuai <b>total bayar</b> (termasuk kode unik)\n• Pastikan sudah menekan <b>Kirim Bukti</b> dan mengirim screenshot\n• Verifikasi dilakukan admin secara manual\n\nMasih bermasalah? Buat tiket ke admin.`,
   trxissue: `🎮 <b>MASALAH TOPUP</b>\n\nBuka <b>📜 Riwayat</b> → pilih transaksi → <b>🚨 LAPORKAN MASALAH</b>. Admin akan menerima tiket lengkap dengan data transaksi.`,
 };
